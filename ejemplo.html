@@ -10,16 +10,17 @@
 		<script src = "http://fb.me/JSXTransformer-0.13.3.js"> </script>
 		<script type="text/jsx"> 
 			var HelloWorldComponent = React.createClass({
+				propTypes :{ //el tipo de attributes que aceptará el conponent
+					name : React.PropTypes.string,
+					years : React.PropTypes.number
+				},
 				render : function(){
-					return <h1>	Hola {this.props.name} !</h1>
+					return <h1>	Hola { this.props.name }, tienes { this.props.years } !</h1>
 				}
 			})
 
-			React.render(<HelloWorldComponent name = "adrianc"/>,document.getElementById('container'))
+			React.render(<HelloWorldComponent name="Adrian" years={22}/>,document.getElementById('container'))
 
-			setTimeout(function (){
-				React.render(<HelloWorldComponent name = "adrian2"/>,document.getElementById('container'))
-			},3000)
 		</script>
 	</body>
 </html>
