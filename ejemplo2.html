@@ -25,15 +25,14 @@
 
 			class PokeRow extends React.Component { //element + PokeAvatar
 				render() {
-					//llamar a pokeavatar
 					return <li>
-						<PokeAvatar number={this.props.number}/>
+						<PokeAvatar number={this.props.number}/>//llamar a pokeavatar
 						{this.props.name}
 					</li>
 				}
 			}
 
-			class PokeYear extends React.Component{
+			class PokeYear extends React.Component{ // anios pokemon
 				render(){
 					return <span> {this.props.yearPoke} </span>
 				}
