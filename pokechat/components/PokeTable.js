@@ -11,7 +11,6 @@ export default class PokeTable extends React.Component {
 			{
 				this.props.pokemons.map((pokemon) =>{//iterar dentro de la lista
 					return <PokeRow key={pokemon.number} name={pokemon.name} number={pokemon.number}/>
-
 				}) 
 			}
 		</ul>
