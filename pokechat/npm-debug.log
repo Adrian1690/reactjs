@@ -1,0 +1,73 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'browSerify' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json pokechat@ No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'browSerify', null ]
+7 verbose cache add name=undefined spec="browSerify" args=["browSerify",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'browSerify',
+8 verbose parsed url   path: 'browSerify',
+8 verbose parsed url   href: 'browSerify' }
+9 silly lockFile 3cc16dc3-browSerify browSerify
+10 verbose lock browSerify D:\Users\equipu\AppData\Roaming\npm-cache\3cc16dc3-browSerify.lock
+11 silly lockFile 3cc16dc3-browSerify browSerify
+12 silly lockFile 3cc16dc3-browSerify browSerify
+13 verbose addNamed [ 'browSerify', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 3099dfd3-browSerify browSerify@
+16 verbose lock browSerify@ D:\Users\equipu\AppData\Roaming\npm-cache\3099dfd3-browSerify.lock
+17 silly addNameRange { name: 'browSerify', range: '*', hasData: false }
+18 verbose request where is /browSerify
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id bd512dd3e3562e73
+21 verbose url raw /browSerify
+22 verbose url resolving [ 'https://registry.npmjs.org/', './browSerify' ]
+23 verbose url resolved https://registry.npmjs.org/browSerify
+24 verbose request where is https://registry.npmjs.org/browSerify
+25 info trying registry request attempt 1 at 15:44:02
+26 http GET https://registry.npmjs.org/browSerify
+27 http 404 https://registry.npmjs.org/browSerify
+28 silly registry.get cb [ 404,
+28 silly registry.get   { 'content-type': 'application/json',
+28 silly registry.get     'cache-control': 'max-age=0',
+28 silly registry.get     'content-length': '2',
+28 silly registry.get     'accept-ranges': 'bytes',
+28 silly registry.get     date: 'Thu, 10 Sep 2015 20:44:04 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     age: '0',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+28 silly registry.get     'x-cache': 'MISS',
+28 silly registry.get     'x-cache-hits': '0',
+28 silly registry.get     'x-timer': 'S1441917843.634120,VS0,VE379' } ]
+29 silly lockFile 3099dfd3-browSerify browSerify@
+30 silly lockFile 3099dfd3-browSerify browSerify@
+31 error 404 Not Found
+31 error 404
+31 error 404 'browSerify' is not in the npm registry.
+31 error 404 You should bug the author to publish it
+31 error 404 It was specified as a dependency of 'pokechat'
+31 error 404
+31 error 404 Note that you can also install from a
+31 error 404 tarball, folder, or http url, or git url.
+32 error System Windows_NT 6.1.7601
+33 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "browSerify"
+34 error cwd d:\Users\equipu\Documents\GitHub\reacjs\pokechat
+35 error node -v v0.10.33
+36 error npm -v 1.4.28
+37 error code E404
+38 verbose exit [ 1, true ]

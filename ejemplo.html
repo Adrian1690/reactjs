@@ -1,0 +1,26 @@
+<html>
+	<head>
+		<title>Hello world react js</title>
+	</head>
+	<body>
+
+		<section id="container"> </section>
+
+		<script src = "http://fb.me/react-0.13.3.js"></script>
+		<script src = "http://fb.me/JSXTransformer-0.13.3.js"> </script>
+		<script type="text/jsx"> 
+			var HelloWorldComponent = React.createClass({
+				propTypes :{ //el tipo de attributes que aceptará el conponent
+					name : React.PropTypes.string,
+					years : React.PropTypes.number
+				},
+				render : function(){
+					return <h1>	Hola { this.props.name }, tienes { this.props.years } !</h1>
+				}
+			})
+
+			React.render(<HelloWorldComponent name="Adrian" years={22}/>,document.getElementById('container'))
+
+		</script>
+	</body>
+</html>
