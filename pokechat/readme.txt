@@ -45,6 +45,8 @@ Clase Teoría sobre ciclos de vida ReactJs
 - mixins		
 	Compartir funcionalidades que tienen en comun distintos components. 
 
-		
+Clase Evnt Handling, State y Browserify
+
+usar "let" en ves de "var"(nuevo estandar)	
 
 ========================================
