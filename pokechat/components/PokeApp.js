@@ -14,7 +14,7 @@ export default class PokeApp extends React.Component {
 
 	onGrowl(name) {
 		let text = `${name}, ${name}!`;
-		 this.state.messages.push({ text: text}); //devuelve la cantidad de elementos
+		this.state.messages.push({ text: text}); //devuelve la cantidad de elementos
 		//setenado el estado
 		let messages = this.state.messages;
 		this.setState({ messages: messages});
