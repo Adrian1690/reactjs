@@ -5,7 +5,7 @@ npm install --save babelify  // permitir que transpilemos codigo EMAC script 6 y
 
 npm run build
 
-Clases   
+Clases     
 
 Clase Teoría sobre ciclos de vida ReactJs
 
