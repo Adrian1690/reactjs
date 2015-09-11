@@ -7,9 +7,7 @@ import PokeChat from './PokeChat';
 
 export default class PokeApp extends React.Component {
 	constructor(props){
-		console.log('one');
 		super(props);
-		console.log('two');
 		this.state = { messages: []};
 		this.onGrowl  = this.onGrowl.bind(this);// bindeamos el this en Ongrowl
 	}
@@ -30,7 +28,7 @@ export default class PokeApp extends React.Component {
 		];
 		return <div className ="pokeapp"> 
 			<PokeTable pokemons={pokemons} onGrowl={ this.onGrowl }/>
-			<PokeChat messages={this.state.messages}/>
+			<PokeChat messages={this.state.messages} />
 		</div>
 	}
 }

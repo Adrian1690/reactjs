@@ -15,7 +15,7 @@ export default class PokeRow extends React.Component {
 
 	render() {//llamar a pokeavatar
 		return <li className="pokerow" onClick={this.onClick.bind(this)}>
-			<PokeAvatar  number={this.props.number}/>
+			<PokeAvatar  number={this.props.number} />
 			{this.props.name}
 		</li>
 	}
