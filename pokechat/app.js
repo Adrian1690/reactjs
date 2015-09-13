@@ -3,15 +3,10 @@
  */ 
 
 import React from 'react';
-import PokeTable from './components/PokeTable';
+import PokeApp from './components/PokeApp';
 
-var pokemos = [
-	{ number:1 , name:'Bulbasaur' , years: 15},
-	{ number:2 , name:'Ivysaur' , years: 20},
-	{ number:3 , name:'VenuSaur' , years: 25},
-];
 
 React.render(
-	<PokeTable pokemons={pokemos} />
+	<PokeApp />
 	, document.getElementById('container')
 );
