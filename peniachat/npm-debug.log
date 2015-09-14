@@ -1,26 +1,29 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 'build' ]
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'run',
+1 verbose cli   'build' ]
 2 info using npm@1.4.28
-3 info using node@v0.10.36
+3 info using node@v0.10.33
 4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
 5 info prebuild peniachat@
 6 info build peniachat@
 7 verbose unsafe-perm in lifecycle true
 8 info peniachat@ Failed to exec build script
-9 error peniachat@ build: `browserify app.js > build.js -t babelify`
+9 error peniachat@ build: `browserify app.js > public/app.js -t babelify`
 9 error Exit status 1
 10 error Failed at the peniachat@ build script.
 10 error This is most likely a problem with the peniachat package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
-10 error     browserify app.js > build.js -t babelify
+10 error     browserify app.js > public/app.js -t babelify
 10 error You can get their info via:
 10 error     npm owner ls peniachat
 10 error There is likely additional logging output above.
-11 error System Darwin 14.3.0
-12 error command "node" "/usr/local/bin/npm" "run" "build"
-13 error cwd /Users/julioadrianpenaromero/Documents/Proyectos/reactjs/peniachat
-14 error node -v v0.10.36
+11 error System Windows_NT 6.1.7601
+12 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "run" "build"
+13 error cwd d:\Users\equipu\Documents\GitHub\reacjs\peniachat
+14 error node -v v0.10.33
 15 error npm -v 1.4.28
 16 error code ELIFECYCLE
 17 verbose exit [ 1, true ]

@@ -8,10 +8,10 @@ import PeniaRow from './PeniaRow';
 export default class PeniaTable extends React.Component{
 
 	render(){
-		return <ul className="peniaTable">
+		return <ul className="peniatable">
 			{
 				this.props.penias.map((penia) => {
-					return <PeniaRow name={penia.nombre} word={penia.word} speak={this.props.onSpeak}/>
+					return <PeniaRow key={penia.id} name={penia.nombre} word={penia.word} speak={this.props.onSpeak}/>
 				})
 			}
 		</ul>

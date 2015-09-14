@@ -6,6 +6,8 @@ import React from 'react';
 
 export default class PeniaRow extends React.Component {
 	onClick(ev){
+		//console.log(this.props.name);
+		//console.log(this.props.word);
 		let obj = {
 			who: this.props.name,
 			word: this.props.word
@@ -14,7 +16,7 @@ export default class PeniaRow extends React.Component {
 	}
 
 	render(){
-		return <li className="PeniaRow" onClick={this.onClick.bind(this)} > 
+		return <li className="peniarow" onClick={this.onClick.bind(this)} > 
 			{this.props.name}
 		</li>
 	}

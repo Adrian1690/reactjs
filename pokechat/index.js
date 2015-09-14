@@ -33,8 +33,8 @@ let server = http.createServer(app).listen(port, () => {
 /* Motor Socket.io del lado del server*/
 
 const io = engine.listen(server);
-/* escuchar nuevas connexiones*/
 
+/* escuchar nuevas connexiones*/
 io.on('connection', (socket) => { // cuando un cliente emita al servidor un message nuevo
 	socket.on('message', (msg) => { // el message será escuchado por el servidor y
 		io.emit('message', msg); // emitido a todos los demas clientes suscritos a message
