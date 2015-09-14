@@ -86,3 +86,17 @@ table {
 	height: 100%;
 	overflow: scroll;
 }
+
+.message-animation-enter { /* "-enter es para decir como aparecerá al inicio"*/
+	opacity: 0;
+	transition: opacity .5s ease-in;
+}
+
+.message-animation-enter.message-animation-enter-active {/* estado final de la animation*/
+	opacity: 1;
+}
+
+/* para cuando el elemento deja el doom*/
+.message-animation-leave {
+
+}

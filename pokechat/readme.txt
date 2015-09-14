@@ -18,6 +18,9 @@ npm install --save socket.io socket.io-client
 Instalar babel
 npm install --save babel
 
+instalar jquery
+npm install --save jquery
+
 Clases
 
 Clase Teoría sobre ciclos de vida ReactJs
