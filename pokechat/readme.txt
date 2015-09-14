@@ -1,9 +1,22 @@
 Comandos usados
 npm install --save react  
 npm install --save browserify // junstar nuestras dependencias y las terceras
-npm install --save babelify  // permitir que transpilemos codigo EMAC script 6 y jsx a javascript
+npm install --save babelify  // permitir que transpilemos 
 
+codigo EMAC script 6 y jsx a javascript
 npm run build
+
+Obtener id lo mas único posible
+npm install --save uid
+
+Instalar express
+npm install --save express 
+
+Instalar socket.io server y client
+npm install --save socket.io socket.io-client
+
+Instalar babel
+npm install --save babel
 
 Clases
 
@@ -49,5 +62,8 @@ Clase Teoría sobre ciclos de vida ReactJs
 Clase Evnt Handling, State y Browserify
 
 usar "let" en ves de "var"(nuevo estandar)	
+
+Clase integración con librerías de terceros
+
 
 ========================================

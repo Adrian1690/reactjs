@@ -1,24 +1,24 @@
 0 info it worked if it ends with ok
-1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 'build' ]
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'run', 'start' ]
 2 info using npm@1.4.28
 3 info using node@v0.10.36
-4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
-5 info prebuild pokechat@
-6 info build pokechat@
+4 verbose run-script [ 'prestart', 'start', 'poststart' ]
+5 info prestart pokechat@
+6 info start pokechat@
 7 verbose unsafe-perm in lifecycle true
-8 info pokechat@ Failed to exec build script
-9 error pokechat@ build: `browserify app.js > build.js -t babelify`
-9 error Exit status 1
-10 error Failed at the pokechat@ build script.
+8 info pokechat@ Failed to exec start script
+9 error pokechat@ start: `babel-node index.js`
+9 error Exit status 8
+10 error Failed at the pokechat@ start script.
 10 error This is most likely a problem with the pokechat package,
 10 error not with npm itself.
 10 error Tell the author that this fails on your system:
-10 error     browserify app.js > build.js -t babelify
+10 error     babel-node index.js
 10 error You can get their info via:
 10 error     npm owner ls pokechat
 10 error There is likely additional logging output above.
 11 error System Darwin 14.3.0
-12 error command "node" "/usr/local/bin/npm" "run" "build"
+12 error command "node" "/usr/local/bin/npm" "run" "start"
 13 error cwd /Users/julioadrianpenaromero/Documents/Proyectos/reactjs/pokechat
 14 error node -v v0.10.36
 15 error npm -v 1.4.28
