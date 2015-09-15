@@ -46,14 +46,15 @@ Clase Teoría sobre ciclos de vida ReactJs
 - Etapas de la vida de components
 	- Mounting: montando component en el dom.
 	metodos:
-		componentWillMount() -> antes que se monte en el doom	componentDidMount() -> cuando ya se monto (aquí se agregan librerias de terceros)
+		componentWillMount() -> antes que se monte en el doom	
+		componentDidMount() -> cuando ya se monto (aquí se agregan librerias de terceros)
 
 	- Updating: actualizando component en el dom.
 	metodos:
 		componentWillReceiveProps(nextProps) -> cuando cambiamos las props de un component
 		shouldComponentUpdate(nextProps,nextState) -> nos permite hacer que no se llame al render, permite comparar props.
-		componentWillUpdate(nextProps, nextState)-> preparar algo antes de llamar a render (no se puede llamar a setStae).
-		componentDidUpdate(prevProps, prevState) -> cuando el component ya se actualizó y podremos operar con el nuevo del dom
+		componentWillUpdate(nextProps, nextState)-> preparar algo antes de llamar a render (no se puede llamar a setState).
+		componentDidUpdate(prevProps, prevState) -> cuando el component ya se actualizó y podremos operar con el nuevo del DOM.
 
 	- Unmounting: eliminando component en el dom.
 	metodos:
