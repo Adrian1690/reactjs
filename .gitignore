@@ -6,4 +6,8 @@ peniaChat/node_modules/*
 peniaChat/build.js
 peniaChat/npm-degub.log
 
+*/node_modules/*
+*/build.js
+*/npm-degub.log
+
 */npm-debug.log
