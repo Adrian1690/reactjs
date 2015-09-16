@@ -26,6 +26,7 @@ Clases
 Clase Teoría sobre ciclos de vida ReactJs
 
 - setear default props emacs script 6
+	getDefaultProps	
   	<component>.defaultProps = { prop : <valor>}
 
 - definir estado inicial
